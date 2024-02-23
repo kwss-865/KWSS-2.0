@@ -8,6 +8,12 @@ header {
     margin: 0 auto;
 }
 
+.logo {
+    float: right;
+    margin-left: 20px;
+    max-width: 300px;
+}
+
 nav {
     position: absolute;
     top: 110px;
@@ -16,7 +22,7 @@ nav {
 
 nav li {
     display: inline;
-    margin: 0 0 0 15px;
+    margin:  20px;
 }
 
 nav a {
@@ -61,5 +67,29 @@ p{
     font-size: 20px;
 }
 
+.itens {
+    font-size: 20px;
+}
 
+.Objetivos {
+    background: #FFFFFF;
+    color:#425591;
+}
 
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagem-objetivos {
+    width: 50%;
+    max-width: 300px;
+}
+
+footer {
+    background-color: #43a2ce;
+    color:#111111;
+    padding: 10px;
+}
