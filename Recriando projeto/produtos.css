@@ -1,5 +1,19 @@
+.link-topo {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
 header {
+    position: relative;
     background: #36a8ddbb;
+    padding: 20px 0;
+    text-align: center;
 }
 
 .objeto {
@@ -15,42 +29,85 @@ header {
 
 nav {
     position: absolute;
-    top: 110px;
-    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav li {
-    display: inline;
-    margin:  20px;
+    display: inline-block;
+    margin: 0 10px;
 }
 
 nav a {
     text-transform: uppercase;
     color: #000;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #6d6b6bcc;
 }
 
 #missao {
-   font-size: 25px;
-   text-align: center; 
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: #000307;
+    letter-spacing: 2px;
 }
 
 em strong {
-    color: #063077fb;
-    font-size: 40ox;
+    color: #063077;
+    font-size: 40px;
+}
+
+.texto {
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 20px;
+    line-height: 1.6;
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imagem-container {
     text-align: center;
 }
 
 .imagem {
     height: 500px;
     width: 500px;
-    position: relative;
-    display: inline-block;
-    left: 340px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.texto {
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #43a2ce;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
