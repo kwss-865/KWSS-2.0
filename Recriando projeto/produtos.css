@@ -1,0 +1,56 @@
+header {
+    background: #36a8ddbb;
+}
+
+.objeto {
+    position: relative;
+    width: 950px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-left: 20px;
+    max-width: 300px;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin:  20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#missao {
+   font-size: 25px;
+   text-align: center; 
+}
+
+em strong {
+    color: #063077fb;
+    font-size: 40ox;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.imagem {
+    height: 500px;
+    width: 500px;
+    position: relative;
+    display: inline-block;
+    left: 340px;
+}
