@@ -1,5 +1,4 @@
 header {
-    position: relative;
     background: #36a8ddbb;
     padding: 20px 0;
     text-align: center;
@@ -12,7 +11,7 @@ header {
 }
 
 .logo {
-    margin-right: 20px;
+    margin-left: 20px;
     max-width: 300px;
 }
 
