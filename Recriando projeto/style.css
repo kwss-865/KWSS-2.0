@@ -1,13 +1,10 @@
 header {
     background: #36a8ddbb;
     padding: 20px 0;
-    text-align: center;
+    text-align: unset;
+    text-transform: lowercase;
+    color: #fff;
 }
-
-header h1 {
-    
-}
-
 .objeto {
     position: relative;
     width: 950px;
