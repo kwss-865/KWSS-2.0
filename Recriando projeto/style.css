@@ -10,6 +10,7 @@ header {
 
 h2 {
     text-align: center;
+    text-transform: lowercase;
 }
 
 .logo {
@@ -17,27 +18,30 @@ h2 {
 }
 
 nav {
-    display: flex;
-    align-items: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
 }
 
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
 }
 
 nav li {
-    margin-left: 20px; 
+    display: inline-block;
+    margin: 0 10px;
 }
 
 nav a {
     text-transform: uppercase;
     color: #000;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 nav a:hover {
@@ -105,6 +109,7 @@ h3 {
     height: 400px;
     width: 400px;
     margin-inline: 750px;
+    margin: left;
 }
 
 .objetivos h4 {
@@ -130,3 +135,4 @@ footer {
     padding: 20px 0;
     text-align: center;
 }
+
