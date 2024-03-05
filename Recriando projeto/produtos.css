@@ -1,19 +1,11 @@
-.link-topo {
-    display: block;
-    text-align: center;
-    text-transform: uppercase;
-    color: #000;
-    font-weight: bold;
-    font-size: 20px;
-    text-decoration: none;
-    margin-top: 20px;
-}
 
 header {
-    position: relative;
-    background: #36a8ddbb;
+    background: #36a8ddbb; 
     padding: 20px 0;
-    text-align: center;
+    text-align: unset;
+    text-transform: lowercase;
+    color: #fff; 
+    position: relative;
 }
 
 .objeto {
@@ -23,7 +15,6 @@ header {
 }
 
 .logo {
-    margin-left: 20px;
     max-width: 300px;
 }
 
