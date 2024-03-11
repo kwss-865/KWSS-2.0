@@ -1,67 +1,68 @@
 
-header {
-    background: #36a8ddbb; 
-    padding: 20px 0;
-    text-align: unset;
-    text-transform: lowercase;
-    color: #fff; 
-    position: relative;
-}
-
-.objeto {
-    position: relative;
-    width: 950px;
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 15px;
 }
 
-.logo {
-    max-width: 300px;
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-nav {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 20px;
+#title{
+    flex-direction: column;
+    line-height: 10px;
 }
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav li {
+li{
     display: inline-block;
-    margin: 0 10px;
+    margin: 20px;
 }
 
-nav a {
-    text-transform: uppercase;
-    color: #000;
-    font-weight: bold;
-    font-size: 20px;
-    text-decoration: none;
-    transition: color 0.3s ease;
+a {
+    color: white;
 }
 
-nav a:hover {
-    color: #6d6b6bcc;
+a :hover{
+    color: blue;
+    transition: 0.3s all;
 }
 
-#missao {
-    font-size: 30px;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    text-transform: uppercase;
-    color: #000307;
-    letter-spacing: 2px;
+#inscreva-se-btn{
+    border: 2px solid rgb(0,0,255);
+    padding: 10px;
+    border-radius: 15px;
 }
 
-em strong {
-    color: #063077;
-    font-size: 40px;
+#inscreva-se-btn:hover{
+    background-color: blue;
+    color: white;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 10px;
+    font-family: poppismedim;
+}
+
+span {
+    color:blue;
 }
 
 .texto {
@@ -96,8 +97,8 @@ p {
     margin-top: 10px;
 }
 
+
 footer {
-    background-color: #43a2ce;
     color: #fff;
     padding: 20px 0;
     text-align: center;
